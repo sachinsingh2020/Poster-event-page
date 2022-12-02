@@ -34,27 +34,17 @@ contactButton.addEventListener("click", (e) => {
 const topicBtn1 = document.querySelector(".topic-btn-1");
 const topicBtn2 = document.querySelector(".topic-btn-2");
 const topicBtn3 = document.querySelector(".topic-btn-3");
-const topicBtn4 = document.querySelector(".topic-btn-4");
-const topicBtn5 = document.querySelector(".topic-btn-5");
 
 topicBtn1.addEventListener("click", () => {
-    const loc = "https://en.wikipedia.org/wiki/Category:Agriculture_and_the_environment";
+    const loc = "https://en.wikipedia.org/wiki/Digital_marketing";
     window.open(loc, "_blank");
 })
 topicBtn2.addEventListener("click", () => {
-    const loc = "https://en.wikipedia.org/wiki/Health_care";
+    const loc = "https://en.wikipedia.org/wiki/E-learning_(theory)";
     window.open(loc, "_blank");
 })
 topicBtn3.addEventListener("click", () => {
-    const loc = "https://en.wikipedia.org/wiki/Defense_Electronics_(magazine)";
-    window.open(loc, "_blank");
-})
-topicBtn4.addEventListener("click", () => {
-    const loc = "https://en.wikipedia.org/wiki/Category:Public_safety";
-    window.open(loc, "_blank");
-})
-topicBtn5.addEventListener("click", () => {
-    const loc = "https://en.wikipedia.org/wiki/Industrial_applicability";
+    const loc = "https://en.wikipedia.org/wiki/Environmental_footprint_of_electric_cars";
     window.open(loc, "_blank");
 })
 
