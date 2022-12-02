@@ -165,7 +165,7 @@ body {
 
 .dated {
     font-family: 'Acme', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: right;
     margin-top: .7rem;
     margin-bottom: 2rem;
@@ -653,21 +653,31 @@ body {
 @media (max-width: 600px) {
     .topic {
         flex-direction: column;
-        height: 38rem;
+        height: 55rem;
+        margin: 2rem 2rem;
     }
 
     .topic-description {
         padding: .8rem 0;
     }
+    .winners-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .winner{
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .showcase-container .techno-head {
         font-size: 2rem;
     }
 
     .showcase-container .dated {
-        font-size: 2rem;
+        font-size: 1.8rem;
 
     }
 }
