@@ -432,6 +432,7 @@ body {
     height: 55rem;
 
 }
+
 .emembers-container {
     margin: 0;
     padding: 0;
@@ -469,6 +470,7 @@ body {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
 
 }
+
 /* .member-container {
     height: 180px;
     width: 180px;
@@ -859,6 +861,11 @@ body {
     background-color: black;
     color: white;
 }
+.symbols i{
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+}
 
 /* ######## media quaries #############  */
 
@@ -1063,7 +1070,6 @@ body {
     align-items: center;
     margin-bottom: 3rem;
     margin-top: 5rem;
-
 }
 
 .person input[type="radio"] {
@@ -1082,7 +1088,6 @@ body {
     margin-bottom: 10rem;
     padding: 1.5rem 2.5rem;
     font-size: 1.6rem;
-
 }
 
 /* ########## registration media quaries #########  */
@@ -1145,6 +1150,7 @@ body {
         align-items: center;
         justify-content: center;
     }
+
     .emembers-container {
         flex-direction: column;
         height: 90rem;
@@ -1164,6 +1170,7 @@ body {
         margin: 2rem 0;
 
     }
+
     .emember-container {
         height: 250px;
         width: 250px;
@@ -1179,9 +1186,10 @@ body {
 
     .member-container:hover {
         height: 700px;
-    
+
     }
-/* 
+
+    /* 
     .member-container:hover .members-container {
         flex-direction: column;
         justify-content: center;
