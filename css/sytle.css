@@ -1144,14 +1144,12 @@ body {
         height: 120rem;
         align-items: center;
         justify-content: center;
-        border: 2px solid purple;
     }
     .emembers-container {
         flex-direction: column;
         height: 90rem;
         align-items: center;
         justify-content: center;
-        border: 2px solid purple;
     }
 
     .member-container {
